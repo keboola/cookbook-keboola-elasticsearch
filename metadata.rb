@@ -1,6 +1,6 @@
 name             'keboola-elasticsearch'
-maintainer       'YOUR_COMPANY_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Keboola'
+maintainer_email 'martin@keboola.com'
 license          'All rights reserved'
 description      'Installs/Configures keboola-elasticsearch'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
