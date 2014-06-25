@@ -1,3 +1,4 @@
+source 'https://api.berkshelf.com'
 metadata
 
 cookbook 'elasticsearch', git: 'git://github.com/elasticsearch/cookbook-elasticsearch.git'
