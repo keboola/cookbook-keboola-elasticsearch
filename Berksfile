@@ -1,4 +1,4 @@
-source 'https://api.berkshelf.com'
+source "https://supermarket.getchef.com"
 metadata
 
 cookbook 'elasticsearch', git: 'git://github.com/elasticsearch/cookbook-elasticsearch.git', tag: "0.3.10"
