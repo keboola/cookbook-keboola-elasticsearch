@@ -1,0 +1,54 @@
+DEPENDENCIES
+  elasticsearch
+    git: git://github.com/keboola/cookbook-elasticsearch.git
+    revision: dde73bc2027e02104147855b7df4bc558cf5db45
+    ref: dde73bc
+  keboola-common
+    git: git://github.com/keboola/cookbook-keboola-common.git
+    revision: 4965bc8e3f10fd10905bb8f5744e5e8edc4c5e94
+    tag: 0.2.6
+  keboola-elasticsearch
+    path: .
+    metadata: true
+
+GRAPH
+  7-zip (1.0.2)
+    windows (>= 1.2.2)
+  apt (2.9.2)
+  ark (0.9.0)
+    7-zip (>= 0.0.0)
+    windows (>= 0.0.0)
+  build-essential (2.2.4)
+  chef-sugar (3.1.1)
+  chef_handler (1.2.0)
+  elasticsearch (0.3.11)
+    ark (>= 0.2.4)
+    build-essential (>= 0.0.0)
+    java (>= 0.0.0)
+    monit (>= 0.0.0)
+    xml (>= 0.0.0)
+  hostname (0.3.0)
+    hostsfile (>= 0.0.0)
+  hostsfile (2.4.5)
+  java (1.36.0)
+    apt (>= 0.0.0)
+  keboola-common (0.2.6)
+    hostname (~> 0.3.0)
+    monit (= 0.7.5)
+    newrelic (~> 2.0.0)
+    papertrail-rsyslog (~> 1.2.0)
+    postfix (= 3.3.1)
+  keboola-elasticsearch (0.1.2)
+    keboola-common (>= 0.0.0)
+  monit (0.7.5)
+  newrelic (2.0.0)
+    curl (>= 0.0.0)
+  papertrail-rsyslog (1.2.0)
+    rsyslog (~> 1.12.1)
+  postfix (3.3.1)
+  rsyslog (1.12.2)
+  windows (1.38.4)
+    chef_handler (>= 0.0.0)
+  xml (1.3.1)
+    build-essential (>= 0.0.0)
+    chef-sugar (>= 0.0.0)
